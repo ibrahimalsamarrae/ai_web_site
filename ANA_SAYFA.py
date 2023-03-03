@@ -54,7 +54,7 @@ st.markdown(footer, unsafe_allow_html=True)
 page_bg_img = '''
 <style>
 body {
-background-image: url("https://static.birgun.net/resim/haber-detay-resim/2022/10/23/yapay-zeka-bizi-kurtar-a-mayacak-1078846-5.jpg");
+background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.redbull.com%2Fimages%2Fc_fill%2Cw_1200%2Ch_630%2Cg_auto%2Cf_auto%2Cq_auto%2Fredbullcom%2F2021%2F1%2F26%2Fxisgmjrbpkn04vxnqjfa%2Fyapay-zeka&imgrefurl=https%3A%2F%2Fwww.redbull.com%2Ftr-tr%2Fyapay-zeka-teknolojileri-hakkinda-bir-deney&tbnid=qlPm8bT20UgoHM&vet=12ahUKEwjxx4m188D9AhVl9bsIHb2UBwgQMygIegUIARDIAQ..i&docid=P15QJK10abmqtM&w=1200&h=630&q=yapay%20zeka&ved=2ahUKEwjxx4m188D9AhVl9bsIHb2UBwgQMygIegUIARDIAQ");
 background-size: cover;
 }
 </style>
