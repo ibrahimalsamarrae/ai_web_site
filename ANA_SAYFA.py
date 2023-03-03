@@ -50,22 +50,18 @@ text-align: center;
 """
 
 st.markdown(footer, unsafe_allow_html=True)
+page_bg_img = '''
+<style>
+body {
+background-image: url("2.jpg");
+background-size: cover;
+}
+</style>
+'''
 
-def add_bg_from_url():
-    st.markdown(
-         """
-         <style>
-         .stApp {{
-             background-image: url("https://cdn.pixabay.com/photo/2019/04/24/11/27/flowers-4151900_960_720.jpg");
-             background-attachment: fixed;
-             background-size: cover
-         }}
-         </style>
-         """,
-         unsafe_allow_html=True
-     )
+st.markdown(page_bg_img, unsafe_allow_html=True)
 
-add_bg_from_url() 
+
 if __name__ == "__main__":
     main()
  
