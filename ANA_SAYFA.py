@@ -31,16 +31,8 @@ def main():
             st.markdown("## yaşınız %i gibi görünüyor" %age[0][0])
             
             
-hide_st_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-        
-            header {visibility: hidden;}
-            </style>
-            """
+
 footer="""<style>
-
-
 .footer {
 position: fixed;
 left: 0;
@@ -56,7 +48,7 @@ text-align: center;
 </div>
 """
 
-st.markdown(hide_st_style, unsafe_allow_html=True)
+st.markdown(footer, unsafe_allow_html=True)
 if __name__ == "__main__":
     main()
  
