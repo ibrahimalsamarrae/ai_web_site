@@ -56,7 +56,7 @@ def add_bg_from_url():
          """
          <style>
          .stApp {{
-             background-image: url("2.jpg");
+             background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fbulutistan.com%2Fblog%2Fyapay-zeka-ai-nedir%2F&psig=AOvVaw2wxwiWADJ2Gj1D3pDW707u&ust=1677971892139000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNiKl8bywP0CFQAAAAAdAAAAABAJ");
              background-attachment: fixed;
              background-size: cover
          }}
