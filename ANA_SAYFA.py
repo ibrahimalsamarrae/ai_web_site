@@ -15,7 +15,7 @@ def main():
         
        st.header("Görünüşüne göre yaşını bil")
        st.write("Öğrenmek için aşağıya kendi resminizi yükleyin! ")
-       file = st.file_uploader("Upload Photo")
+       file = st.file_uploader("lütfen geçerli bir fotograf ekleyen")
        if file is not None:
             st.image(file, width=300)
             image = Image.open(file)
