@@ -4,7 +4,7 @@ import tensorflow as tf
 img= Image.open("1.jpg")
 st.set_page_config(
         page_title="ANA SAYFA",
-        page_icon=img
+        page_icon="icon/img"
     )
 
 st.title("AI PROGRAMIZA HOŞ GELDİNİZ💫")
