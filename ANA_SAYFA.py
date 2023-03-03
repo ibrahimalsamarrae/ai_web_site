@@ -5,7 +5,6 @@ import tensorflow as tf
 st.set_page_config(
         page_title="ANA SAYFA",
         page_icon=':earth_asia:',
-        layout="wide",
     )
 
 st.title("AI PROGRAMIZA HOŞ GELDİNİZ💫")
