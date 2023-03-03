@@ -138,3 +138,10 @@ components.html(
     """,
     width=800, height=1000, scrolling=True
 )
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
