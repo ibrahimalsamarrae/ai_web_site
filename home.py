@@ -8,14 +8,34 @@ st.set_page_config(
 st.title("Main Page")
 st.sidebar.success("Select a page above.")
 
-if "my_input" not in st.session_state:
-    st.session_state["my_input"] = ""
+import streamlit as st
+import tensorflow as tf
+from PIL import Image
 
-my_input = st.text_input("Input a text here", st.session_state["my_input"])
-submit = st.button("Submit")
-if submit:
-    st.session_state["my_input"] = my_input
-    st.write("You have entered: ", my_input)
+def main():
+        
+       st.header("Görünüşüne göre yaşını bil")
+       st.write("Öğrenmek için aşağıya kendi resminizi yükleyin! ")
+       file = st.file_uploader("Upload Photo")
+       if file is not None:
+            st.image(file, width=300)
+            image = Image.open(file)
+            
+            image = tf.keras.preprocessing.image.img_to_array(image)
+            image = tf.image.resize(image, [224,224]) 
+            image = image / 255.0      
+            image = tf.expand_dims(image, axis=0)
+            
+            model = tf.keras.models.load_model("yasmodel.h5")
+            age = model.predict(image)
+            
+            st.markdown("## yaşınız %i gibi görünüyor" %age[0][0])
+            
+            
+            
+if __name__ == '__main__':
+     main()
+        
 
 
 hide_streamlit_style = """
