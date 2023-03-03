@@ -42,6 +42,7 @@ background-color: white;
 color: black;
 text-align: center;
 }
+ #MainMenu {visibility: hidden;}
 </style>
 <div class="footer">
 <p>Developed by ALSAMARRAE</p>
