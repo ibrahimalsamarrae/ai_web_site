@@ -65,10 +65,10 @@ components.html(
 
 
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="templates/Hakkında.html">Hakkında</a>
+                        <a class="nav-link " aria-current="page" href="/templates/Hakkında.html">Hakkında</a>
                     </li>
                       <li class="nav-item">
-                          <a class="nav-link " aria-current="page" href="templates/uygulama.html">programa giriş</a>
+                          <a class="nav-link " aria-current="page" href="/templates/uygulama.html">programa giriş</a>
                       </li>
 
 
