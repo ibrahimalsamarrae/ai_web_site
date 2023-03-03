@@ -1,9 +1,9 @@
 import streamlit as st
 from PIL import Image
 import tensorflow as tf
-im = Image.open("1.jpg")
+img= Image.open("1.jpg")
 st.set_page_config(
-        page_title="ANA SAYFA",
+        page_title=img,
         page_icon='earth_asia'
     )
 
