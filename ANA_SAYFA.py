@@ -50,6 +50,22 @@ text-align: center;
 """
 
 st.markdown(footer, unsafe_allow_html=True)
+
+def add_bg_from_url():
+    st.markdown(
+         """
+         <style>
+         .stApp {{
+             background-image: url("2.jpg");
+             background-attachment: fixed;
+             background-size: cover
+         }}
+         </style>
+         """,
+         unsafe_allow_html=True
+     )
+
+add_bg_from_url()
 if __name__ == "__main__":
     main()
  
