@@ -54,7 +54,7 @@ st.markdown(footer, unsafe_allow_html=True)
 page_bg_img = '''
 <style>
 body {
-background-image: url("https://images.unsplash.com/photo-1542281286-9e0a16bb7366");
+background-image: url("https://static.birgun.net/resim/haber-detay-resim/2022/10/23/yapay-zeka-bizi-kurtar-a-mayacak-1078846-5.jpg");
 background-size: cover;
 }
 </style>
