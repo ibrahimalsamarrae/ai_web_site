@@ -51,17 +51,6 @@ text-align: center;
 
 st.markdown(footer, unsafe_allow_html=True)
 
-page_bg_img = '''
-<style>
-body {
-background-image: url("https://logosoft.com.tr/uploads/files/16-07-2022/08c072c7.jpg");
-background-size: cover;
-}
-</style>
-'''
-
-st.markdown(page_bg_img, unsafe_allow_html=True)
-
 if __name__ == "__main__":
     main()
  
