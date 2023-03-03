@@ -54,7 +54,7 @@ st.markdown(footer, unsafe_allow_html=True)
 page_bg_img = '''
 <style>
 body {
-background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.redbull.com%2Fimages%2Fc_fill%2Cw_1200%2Ch_630%2Cg_auto%2Cf_auto%2Cq_auto%2Fredbullcom%2F2021%2F1%2F26%2Fxisgmjrbpkn04vxnqjfa%2Fyapay-zeka&imgrefurl=https%3A%2F%2Fwww.redbull.com%2Ftr-tr%2Fyapay-zeka-teknolojileri-hakkinda-bir-deney&tbnid=qlPm8bT20UgoHM&vet=12ahUKEwjxx4m188D9AhVl9bsIHb2UBwgQMygIegUIARDIAQ..i&docid=P15QJK10abmqtM&w=1200&h=630&q=yapay%20zeka&ved=2ahUKEwjxx4m188D9AhVl9bsIHb2UBwgQMygIegUIARDIAQ");
+background-image: url("https://logosoft.com.tr/uploads/files/16-07-2022/08c072c7.jpg");
 background-size: cover;
 }
 </style>
