@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 import tensorflow as tf
-# im = Image.open("favicon.ico")
+im = Image.open("1.jpg")
 st.set_page_config(
         page_title="ANA SAYFA",
         page_icon='earth_asia'
