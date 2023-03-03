@@ -3,11 +3,10 @@ from PIL import Image
 import tensorflow as tf
 # im = Image.open("favicon.ico")
 st.set_page_config(
-    page_title="ANA SAYFA",
-    page_icon="earth_asia",
-    layout="wide",
-)
-
+        page_title="ANA SAYFA",
+        page_icon="chart_with_upwards_trend",
+        layout="wide",
+    )
 
 st.title("AI PROGRAMIZA HOŞ GELDİNİZ💫")
 st.sidebar.success("Select a page above.")
