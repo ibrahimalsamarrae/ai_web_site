@@ -4,7 +4,7 @@ import tensorflow as tf
 # im = Image.open("favicon.ico")
 st.set_page_config(
         page_title="ANA SAYFA",
-        page_icon=':earth_asia:'
+        page_icon='earth_asia'
     )
 
 st.title("AI PROGRAMIZA HOŞ GELDİNİZ💫")
