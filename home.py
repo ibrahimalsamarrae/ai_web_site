@@ -1,11 +1,11 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="Multipage App",
+    page_title="ANA SAYFA",
     page_icon="👋",
 )
 
-st.title("Main Page")
+st.title("AI PROGRAMIZA HOŞ GELDİNİZ💫")
 st.sidebar.success("Select a page above.")
 
 import streamlit as st
