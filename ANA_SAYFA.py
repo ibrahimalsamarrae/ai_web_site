@@ -50,17 +50,29 @@ text-align: center;
 """
 
 st.markdown(footer, unsafe_allow_html=True)
-page_bg_img = '''
-<style>
-body {
-background-image: url("https://bulutistan.com/blog/wp-content/uploads/2022/03/Yapay-Zeka-AI-Nedir-scaled.jpg");
-background-size: cover;
-}
-</style>
-'''
+import base64
 
-st.markdown(page_bg_img, unsafe_allow_html=True)
+@st.cache(allow_output_mutation=True)
+def get_base64_of_bin_file(bin_file):
+    with open(bin_file, 'rb') as f:
+        data = f.read()
+    return base64.b64encode(data).decode()
 
+def set_png_as_page_bg(png_file):
+    bin_str = get_base64_of_bin_file(png_file)
+    page_bg_img = '''
+    <style>
+    body {
+    background-image: url("data:image/png;base64,%s");
+    background-size: cover;
+    }
+    </style>
+    ''' % bin_str
+    
+    st.markdown(page_bg_img, unsafe_allow_html=True)
+    return
+
+set_png_as_page_bg('2.jpg')
 
 if __name__ == "__main__":
     main()
