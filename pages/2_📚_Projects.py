@@ -136,5 +136,5 @@ components.html(
       crossorigin="anonymous"></script>
 </body>
     """,
-    width=800, height=900, scrolling=True
+    width=1200, height=1200, scrolling=True
 )
