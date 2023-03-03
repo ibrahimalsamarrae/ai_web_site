@@ -53,7 +53,7 @@ st.markdown(footer, unsafe_allow_html=True)
 page_bg_img = '''
 <style>
 body {
-background-image: url("2.jpg");
+background-image: url("https://bulutistan.com/blog/wp-content/uploads/2022/03/Yapay-Zeka-AI-Nedir-scaled.jpg");
 background-size: cover;
 }
 </style>
