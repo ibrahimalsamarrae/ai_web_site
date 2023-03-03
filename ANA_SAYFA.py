@@ -56,7 +56,7 @@ def add_bg_from_url():
          """
          <style>
          .stApp {{
-             background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fbulutistan.com%2Fblog%2Fyapay-zeka-ai-nedir%2F&psig=AOvVaw2wxwiWADJ2Gj1D3pDW707u&ust=1677971892139000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNiKl8bywP0CFQAAAAAdAAAAABAJ");
+             background-image: url("https://cdn.pixabay.com/photo/2019/04/24/11/27/flowers-4151900_960_720.jpg");
              background-attachment: fixed;
              background-size: cover
          }}
@@ -65,7 +65,7 @@ def add_bg_from_url():
          unsafe_allow_html=True
      )
 
-add_bg_from_url()
+add_bg_from_url() 
 if __name__ == "__main__":
     main()
  
