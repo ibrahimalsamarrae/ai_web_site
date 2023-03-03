@@ -1,22 +1,16 @@
 import streamlit as st
 from PIL import Image
+import tensorflow as tf
+# im = Image.open("favicon.ico")
 st.set_page_config(
     page_title="ANA SAYFA",
-    page_icon="👋",
-)
-im = Image.open("favicon.ico")
-st.set_page_config(
-    page_title="Hello",
-    page_icon=im,
+    page_icon="☔",
     layout="wide",
 )
 
 st.title("AI PROGRAMIZA HOŞ GELDİNİZ💫")
 st.sidebar.success("Select a page above.")
 
-import streamlit as st
-import tensorflow as tf
-from PIL import Image
 
 def main():
         
