@@ -4,7 +4,7 @@ import tensorflow as tf
 # im = Image.open("favicon.ico")
 st.set_page_config(
         page_title="ANA SAYFA",
-        page_icon="chart_with_upwards_trend",
+        page_icon=':earth_asia:',
         layout="wide",
     )
 
@@ -38,11 +38,11 @@ if __name__ == '__main__':
         
 
 
-hide_streamlit_style = """
+hide_st_style = """
             <style>
             #MainMenu {visibility: hidden;}
             footer {visibility: hidden;}
+            header {visibility: hidden;}
             </style>
             """
-st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
-st.balloons()
+st.markdown(hide_st_style, unsafe_allow_html=True)
