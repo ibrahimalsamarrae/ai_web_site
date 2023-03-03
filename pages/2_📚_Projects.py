@@ -80,7 +80,7 @@ components.html(
             <div class="row py-3">
                 <div class="col md-3">
                     <h3 class='text-center py-3 headstyle' style="font-size: 18px;"><b>programa giriş</b></h3>
-                    <a href="/templates/uygulama.html"><img src="https://github.com/ibrahimalsamarrae/ai_yas_multi/blob/main/static/icons/ana_sayfa.jpeg" class="img-fluid mx-auto d-block"></a>
+                    <a href="/templates/uygulama.html"><img src="static/icons/ana_sayfa.jpeg" class="img-fluid mx-auto d-block"></a>
                 </div>
       
       
