@@ -55,8 +55,8 @@ def main():
       
        if submit1:
            if file is not None:
-                st.image(file)
-                image = Image.open(file,width=300)
+                st.image(file,width=300)
+                image = Image.open(file)
                 
                 image = tf.keras.preprocessing.image.img_to_array(image)
                 image = tf.image.resize(image, [224,224]) 
