@@ -49,9 +49,8 @@ elif selected == "Hakkında":
 def main():
 
         
-       st.header("Görünüşüne göre yaşını bil")
        st.write("note: resminizi yüzünüz billi olsun")
-       file = st.file_uploader("lütfen geçerli bir fotograf ekleyen",help=None)
+       file = st.file_uploader("",help=None)
        submit = st.button("sonuç al")
        
       
