@@ -9,7 +9,7 @@ st.set_page_config(
 
 st.title("kamera' ile resim çek ve sonoç al")
 
-file = st.camera_input()
+file = st.camera_input("çek")
 
 submit = st.button("sonuç al")
        
