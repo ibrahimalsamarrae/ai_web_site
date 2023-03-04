@@ -29,8 +29,7 @@ def main():
                 
                 model = tf.keras.models.load_model("yasmodel.h5")
                 age = model.predict(image)
-                
-                st.markdown("## yaşınız %i gibi görünüyor" %age[0][0])
+                age=st.markdown("## yaşınız %i gibi görünüyor" %age[0][0])
 
             
             
