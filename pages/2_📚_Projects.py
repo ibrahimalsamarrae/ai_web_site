@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 st.title("sonuçu yazdır")
-file =st.session_state("file")
+file =st.session_state("my_input")
 age =st.session_state("age")
 if file is not None:
     st.image(file, width=300)
