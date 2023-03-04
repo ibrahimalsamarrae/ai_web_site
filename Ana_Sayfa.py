@@ -16,7 +16,7 @@ st.sidebar.success("Yukarıdan bir sayfa seçin.")
 
 
 selected = option_menu("Menu", ["kamera'ile çek", 'Hakkında'], 
-icons=['house', 'gear'])
+icons=['house', 'gear'], default_index=1)
 
 if selected == "kamera'ile çek":
     st.title("kamera' ile resim çek ve sonoç al")
