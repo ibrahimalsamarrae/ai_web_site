@@ -12,11 +12,15 @@ st.sidebar.success("Select a page above.")
 
 
 def main():
+       if "my_input" not in st.session_state:
+          st.session_state["my_input"] = ""
         
        st.header("Görünüşüne göre yaşını bil")
        st.write("note: resminizi yüzünüz billi olsun")
-       file = st.file_uploader("lütfen geçerli bir fotograf ekleyen",help=None)
+       file = st.file_uploader("lütfen geçerli bir fotograf ekleyen",st.session_state["my_input"])
        submit = st.button("sonuç al")
+       
+      
        if submit:
            if file is not None:
                 st.image(file, width=300)
