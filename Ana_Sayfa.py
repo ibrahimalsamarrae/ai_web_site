@@ -44,9 +44,9 @@ footer="""<style>
 position: fixed;
 left: 0;
 bottom: 0;
-width: 100%;
-background-color: white;
-color: black;
+width: 20%;
+background-color: black;
+color: white;
 text-align: center;
 }
  #MainMenu {visibility: hidden;}
