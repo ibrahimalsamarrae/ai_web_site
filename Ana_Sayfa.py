@@ -90,12 +90,7 @@ text-align: center;
 """
 
 st.markdown(footer, unsafe_allow_html=True)
-import time
-
-with st.spinner('Yükleniyor...'):
-    time.sleep(3)
-st.success('Done!')
-
+st.balloons()
 if __name__ == "__main__":
     main()
  
