@@ -16,7 +16,7 @@ st.sidebar.success("Yukarıdan bir sayfa seçin.")
 
 
 selected = option_menu("Menu", ['ANA SAYFA',"kamera'ile çek"], 
-icons=['house', 'gear'], default_index=0)
+icons=['house', 'bi bi-camera-fill'], default_index=0)
 
 if selected == "ANA SAYFA":
     st.title("Hakkında")
