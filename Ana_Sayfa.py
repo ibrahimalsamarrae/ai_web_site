@@ -51,9 +51,11 @@ text-align: center;
 }
  #MainMenu {visibility: hidden;}
 </style>
+<center> 
 <div class="footer">
 <p class="footer"> by ALSAMARRAE</p>
 </div>
+</center>
 """
 
 st.markdown(footer, unsafe_allow_html=True)
