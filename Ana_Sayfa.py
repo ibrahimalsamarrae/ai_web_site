@@ -8,7 +8,7 @@ st.set_page_config(
     )
 
 st.title("AI PROGRAMIZA HOŞ GELDİNİZ💫")
-st.tabs("Yukarıdan bir sayfa seçin.")
+
 
 
 def main():
