@@ -52,7 +52,7 @@ text-align: center;
  #MainMenu {visibility: hidden;}
 </style>
 <div class="footer">
-<p>Developed by ALSAMARRAE</p>
+<p> by ALSAMARRAE</p>
 </div>
 """
 
