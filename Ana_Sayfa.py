@@ -19,10 +19,9 @@ selected = option_menu("Menu", ['ANA SAYFA',"kamera'ile çek"],
 icons=['house', 'bi bi-camera-fill'], default_index=0)
 
 if selected == "ANA SAYFA":
-    st.title("Hakkında")
-    st.header("Yapay zeka tarafından makine öğrenimi kullanılarak oluşturulmuş bir programdır. Model, farklı yaşlardaki 23.000 görüntü örneği kullanılarak eğitildi. Modelin eğitiminde sinir ağlarından en son algoritmalar kullanılmıştır. Program çok güvenlidir ve gizliliğinizi korur")
-
+    st.write("lütfen yüzünüz resmi yükleyin")
     
+  
    ################################################################
 elif selected == "kamera'ile çek":
     st.title("kamera' ile resim çek ve sonoç al")
