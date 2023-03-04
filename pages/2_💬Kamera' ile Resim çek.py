@@ -9,14 +9,7 @@ st.set_page_config(
 
 st.title("kamera' ile resim çek ve sonoç al")
 
-file = st.camera_input("Take a picture")
-
-if file is not None:
-    # To read image file buffer as bytes:
-    bytes_data = file.getvalue()
-    # Check the type of bytes_data:
-    # Should output: <class 'bytes'>
-    st.write(type(bytes_data))
+file = st.camera_input("çek")
 
 submit = st.button("sonuç al")
        
