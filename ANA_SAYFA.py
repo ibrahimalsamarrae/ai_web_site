@@ -12,8 +12,7 @@ st.sidebar.success("Select a page above.")
 
 
 def main():
-       if "my_input" not in st.session_state:
-          st.session_state["my_input"] = ""
+       st.session_state["my_input"] = ""
         
        st.header("Görünüşüne göre yaşını bil")
        st.write("note: resminizi yüzünüz billi olsun")
