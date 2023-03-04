@@ -22,7 +22,7 @@ def main():
       
        if submit:
            if file is not None:
-                st.image(file, width=300)
+                st.image(file)
                 image = Image.open(file)
                 
                 image = tf.keras.preprocessing.image.img_to_array(image)
