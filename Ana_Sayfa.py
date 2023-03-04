@@ -8,17 +8,15 @@ st.set_page_config(
     )
 
 st.title("AI PROGRAMIZA HOŞ GELDİNİZ💫")
-st.sidebar.success("Select a page above.")
+st.sidebar.success("Yukarıdan bir sayfa seçin.")
 
 
 def main():
-       if "my_input" not in st.session_state:
-           st.session_state["my_input"] =None
-       
+
         
        st.header("Görünüşüne göre yaşını bil")
        st.write("note: resminizi yüzünüz billi olsun")
-       file = st.file_uploader("lütfen geçerli bir fotograf ekleyen",st.session_state["my_input"])
+       file = st.file_uploader("lütfen geçerli bir fotograf ekleyen",help=None)
        submit = st.button("sonuç al")
        
       
