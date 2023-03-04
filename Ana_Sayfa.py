@@ -90,7 +90,6 @@ text-align: center;
 """
 
 st.markdown(footer, unsafe_allow_html=True)
-st.balloons()
 if __name__ == "__main__":
     main()
  
