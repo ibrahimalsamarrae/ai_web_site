@@ -15,10 +15,16 @@ st.sidebar.success("Yukarıdan bir sayfa seçin.")
 
 
 
-selected = option_menu("Menu", ["kamera'ile çek", 'Hakkında'], 
-icons=['house', 'gear'], default_index=1)
+selected = option_menu("Menu", ['ANA SAYFA',"kamera'ile çek"], 
+icons=['house', 'gear'], default_index=0)
 
-if selected == "kamera'ile çek":
+if selected == "ANA SAYFA":
+    st.title("Hakkında")
+    st.header("Yapay zeka tarafından makine öğrenimi kullanılarak oluşturulmuş bir programdır. Model, farklı yaşlardaki 23.000 görüntü örneği kullanılarak eğitildi. Modelin eğitiminde sinir ağlarından en son algoritmalar kullanılmıştır. Program çok güvenlidir ve gizliliğinizi korur")
+
+    
+   ################################################################
+elif selected == "kamera'ile çek":
     st.title("kamera' ile resim çek ve sonoç al")
 
     file = st.camera_input("")
@@ -40,21 +46,15 @@ if selected == "kamera'ile çek":
             age = model.predict(image)
             age=st.markdown("## yaşınız %i gibi görünüyor" %age[0][0])
 
-   ################################################################
-elif selected == "Hakkında":
-    st.title("Hakkında")
-    st.header("Yapay zeka tarafından makine öğrenimi kullanılarak oluşturulmuş bir programdır. Model, farklı yaşlardaki 23.000 görüntü örneği kullanılarak eğitildi. Modelin eğitiminde sinir ağlarından en son algoritmalar kullanılmıştır. Program çok güvenlidir ve gizliliğinizi korur")
-
-
 def main():
 
         
        st.write("note: resminizi yüzünüz billi olsun")
        file = st.file_uploader("",help=None)
-       submit = st.button("sonuç al")
+       submit1 = st.button("sonuç al")
        
       
-       if submit:
+       if submit1:
            if file is not None:
                 st.image(file)
                 image = Image.open(file)
