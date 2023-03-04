@@ -44,7 +44,7 @@ footer="""<style>
 position: fixed;
 left: 0;
 bottom: 0;
-width: 20%;
+width: 50%;
 background-color: black;
 color: white;
 text-align: center;
