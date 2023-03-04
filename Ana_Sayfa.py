@@ -29,7 +29,7 @@ elif selected == "kamera'ile çek":
 
     file = st.camera_input("")
 
-    submit = st.button("sonuç al")
+    submit = st.button("sonuç")
            
           
     if submit:
