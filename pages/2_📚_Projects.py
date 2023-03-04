@@ -10,4 +10,4 @@ if file is not None:
     st.markdown("## yaşınız %i gibi görünüyor" %age[0][0])
     
        
-st.write("You have entered", st.session_state["my_input"])
+#st.write("You have entered", st.session_state["my_input"])
