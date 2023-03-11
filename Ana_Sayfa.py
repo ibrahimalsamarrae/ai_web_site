@@ -20,7 +20,7 @@ selected = option_menu("Menu", ['ANA SAYFA',"kamera'ile çek"],
 icons=['house', 'bi bi-camera-fill'], default_index=0)
 
 if selected == "ANA SAYFA":
-    st.write("lütfen yüzünüz resmi yükleyin")
+    st.write("lütfen yüzünüz resmi yükleyin note: resminizi yüzünüz billi olsun")
     
   
    ################################################################
@@ -49,7 +49,6 @@ elif selected == "kamera'ile çek":
 def main():
 
         
-       st.write("note: resminizi yüzünüz billi olsun")
        file = st.file_uploader("",help=None)
        submit1 = st.button("sonuç al")
        
